@@ -1,0 +1,53 @@
+.navbar-brand {
+	cursor: pointer;
+}
+
+.icon {
+	font-size: 1.4rem;
+	font-family: 'Space Mono', monospace;
+	padding: 0.2em 1em;
+	display: flex;
+	width: fit-content;
+	flex-direction: column;
+	align-items: center;
+	user-select: none;
+}
+
+.icon-image, .icon-text {
+	display: flex;
+	width: fit-content;
+	align-items: flex-end;
+}
+
+.icon-text > * {
+	display: inline-block;
+	transition: 500ms;
+	overflow-x: hidden;
+	white-space: nowrap;
+}
+
+.icon .hover-to-show {
+	width: 0;
+	opacity: 0;
+}
+
+.icon .hover-to-hide {
+	width: 2.25em;
+	opacity: 1;
+}
+
+@media (min-width: 576px) {
+	.icon:hover .hover-to-hide:not(.header-shrink *) {
+		width: 0;
+		opacity: 0;
+	}
+
+	.icon:hover .hover-to-show:not(.header-shrink *) {
+		width: 2.25em;
+		opacity: 1;
+	}
+
+	.icon:hover .hover-to-show.long:not(.header-shrink *) {
+		width: 6.35em;
+	}
+}
