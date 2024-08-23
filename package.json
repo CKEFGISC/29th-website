@@ -2,7 +2,7 @@
   "name": "react-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ckefgisc.github.io/29th-website/",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
