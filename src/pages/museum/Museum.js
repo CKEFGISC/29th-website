@@ -28,7 +28,7 @@ function TitleLink(props) {
 export default function Museum() {
   return (<>
     <section id="title-bar">
-      <span onClick={() => window.location.assign("/#/ctf/IBWKIRrBsCoDkNuXE99MvG5j/")}>
+      <span>
         歷屆博物館
       </span>
     </section>

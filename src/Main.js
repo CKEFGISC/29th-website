@@ -10,7 +10,6 @@ import Home from "./pages/home/Home";
 import Events from "./pages/events/Events";
 import Museum from "./pages/museum/Museum";
 import Team from "./pages/team/Team";
-import CTF from "./pages/ctf/CTF";
 import CourseList from "./pages/courses/pages/List";
 import CourseIndividual from "./pages/courses/pages/Individual";
 
@@ -21,7 +20,6 @@ const router = createHashRouter([
   { path: "/courses/:id", element: (<Page title="課程"><CourseIndividual /></Page>) },
   { path: "/museum", element: (<Page title="博物館"><Museum /></Page>) },
   { path: "/team", element: (<Page title="幹部"><Team /></Page>) },
-  { path: "/ctf/:id", element: (<Page title="旗幟"><CTF /></Page>) }
 ]);
 
 export default function Main() {

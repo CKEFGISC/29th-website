@@ -355,7 +355,6 @@ Pomelo 曾經在國文報告的 PPT 裡塞 C++ 的程式碼，好電 Orz
 人好看成績又好，根本人生勝利組。
             `}
             imgSrc="/images/team/fgisc/ss.png"
-            onClick={() => window.location.assign("/#/ctf/i4eG2HliYKoCtGlUXvw0SPcP/")}
           />
           <Person
             role="網管"
