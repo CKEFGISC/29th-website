@@ -24,7 +24,6 @@ export default function Header() {
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul className="navbar-nav">
-                <NavLink href="#/news">公告</NavLink>
                 <NavLink href="#/team">幹部</NavLink>
                 <NavLink href="#/courses">課程</NavLink>
                 <NavLink href="#/events">活動</NavLink>

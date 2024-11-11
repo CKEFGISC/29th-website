@@ -46,7 +46,7 @@ export default function Museum() {
           </p>
         </MuseumItem>
         <MuseumItem imgSrc="/images/museum/28th_website.png" alt="28th website">
-          <TitleLink url="/">28<Up>th</Up> 社網</TitleLink>
+          <TitleLink url="https://28th.ckefgisc.org/">28<Up>th</Up> 社網</TitleLink>
           <p>
             鹽亞倫大電神架好了 27<Up>th</Up> 社網，好強。接著換 28<Up>th</Up> 上幹了，網管 晴 決定重頭寫自己的社網。
           </p>

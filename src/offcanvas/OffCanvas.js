@@ -17,7 +17,6 @@ export default function Offcanvas() {
       </div>
       <div className="offcanvas-body thin-scrollbar">
         <ul className="navbar-nav">
-          <OffLink href="#/news">公告</OffLink>
           <OffLink href="#/team">幹部</OffLink>
           <OffLink href="#/courses">課程</OffLink>
           <OffLink href="#/events">活動</OffLink>
