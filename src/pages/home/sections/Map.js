@@ -14,28 +14,28 @@ export default function Map() {
             useScroll to="#about"
             imgSrc="/images/homepage/about.jpg"
             title="關於我們"
-            description="＂關於社團與這個網站的介紹＂"
-            btnColor="bright-red"
+            description="關於建北電資"
+            btnColor="light"
           />
           <Card 
             href="#/courses"
             imgSrc="/images/homepage/class.jpg"
             title="課程介紹"
-            description="＂社課的介紹＂"
-            btnColor="mango"
+            description="社課介紹"
+            btnColor="light"
           />
           <Card 
             href="#/events"
             imgSrc="/images/homepage/event.jpg"
             title="活動介紹"
-            description="＂四大獵祭與其他活動＂"
+            description="四大獵祭與其他活動"
             btnColor="kelly-green"
           />
           <Card 
             href="#/museum"
             imgSrc="/images/homepage/museum.jpg"
             title="博物館"
-            description="＂歷屆的成果展示與網站＂"
+            description="歷屆的成果展示與網站"
             btnColor="info"
           />
         </Row>
