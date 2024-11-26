@@ -25,11 +25,11 @@ function setContent(index, view, textContent, setText, setSlides) {
       "linux": "資安",
     },
     imgSrcs = {
-      "web":          "/images/courses/web.avif",
-      "python":       "/images/courses/python.jpg",
-      "game_design":  "/images/courses/game_design.webp",
-      "algorithm":    "/images/courses/algorithm.jpg",
-      "linux":    "/images/courses/linux.avif",
+      "web":          "/images/courses/Web.png",
+      "python":       "/images/courses/Python.png",
+      "game_design":  "/images/courses/Unity.png",
+      "algorithm":    "/images/courses/C++.png",
+      "linux":    "/images/courses/Cybersecurity.png",
     },
     slides = {
       "web": <>
