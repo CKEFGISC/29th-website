@@ -15,28 +15,28 @@ export default function Map() {
             imgSrc="/images/homepage/about.jpg"
             title="關於我們"
             description="關於建北電資"
-            btnColor="light"
+            btnColor="PapayaWhip"
           />
           <Card 
             href="#/courses"
             imgSrc="/images/homepage/class.jpg"
             title="課程介紹"
             description="社課介紹"
-            btnColor="light"
+            btnColor="PapayaWhip"
           />
           <Card 
             href="#/events"
             imgSrc="/images/homepage/event.jpg"
             title="活動介紹"
             description="四大獵祭與其他活動"
-            btnColor="kelly-green"
+            btnColor="PapayaWhip"
           />
           <Card 
             href="#/museum"
             imgSrc="/images/homepage/museum.jpg"
             title="博物館"
             description="歷屆的成果展示與網站"
-            btnColor="info"
+            btnColor="PapayaWhip"
           />
         </Row>
       </div>
