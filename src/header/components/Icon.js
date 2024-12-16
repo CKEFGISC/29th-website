@@ -12,24 +12,7 @@ export default function Icon() {
   return (
     <span className="navbar-brand" onClick={onIconClick}>
       <div className="icon px-0">
-        <div className="icon-image">
-          <img
-            src="/images/ckeisc_mouse.png"
-            alt="CKEISC Mouse"
-            className="icon-image"
-          />
-          <img
-            src="/images/x.png"
-            alt="x"
-            className="icon-image"
-          />
-          <img
-            src="/images/fgisc_star.png"
-            alt="FGISC Star"
-            className="icon-image"
-          />
-        </div>
-        <div className="icon-text">
+          <div className="icon-text">
           <span>&nbsp;CKE</span>
           <span className="hover-to-show long">ISC 44<sup><small>th</small></sup> x&nbsp;</span>
           <span>FGISC&nbsp;</span>

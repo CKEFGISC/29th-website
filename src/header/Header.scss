@@ -9,20 +9,6 @@ header nav li {
 	font-weight: 600;
 }
 
-header .icon-image {
-	height: 1.8em;
-	transition: 100ms ease;
-}
-
-// .navbar > .container-fluid {
-// 	flex-wrap: nowrap;
-// }
-
-.header-shrink .icon-image {
-	height: 0;
-	opacity: 0;
-}
-
 .header-shrink nav li {
 	margin: 0px 15px;
 	font-size: 18px;
